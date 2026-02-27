@@ -3,8 +3,6 @@
 
 <img width="1311" height="887" alt="image" src="https://github.com/user-attachments/assets/fb628e0d-2b96-41bb-964b-71b9340ae174" />
 
-Aplikasi Flutter sederhana untuk mengelola katalog kopi dengan fitur CRUD (Create, Read, Delete).
-
 ## Deskripsi Aplikasi
 
 Katalog Kopi @Wakeup.social adalah aplikasi mobile yang dibuat menggunakan Flutter dan Dart. Aplikasi ini memungkinkan pengguna untuk menambahkan, melihat, dan menghapus data kopi. Data disimpan secara lokal menggunakan List (tidak menggunakan database eksternal), sehingga data akan hilang ketika aplikasi ditutup. Cocok untuk pembelajaran dasar Flutter dan state management dengan StatefulWidget.
@@ -21,7 +19,7 @@ Katalog Kopi @Wakeup.social adalah aplikasi mobile yang dibuat menggunakan Flutt
 | **Tema Kopi** | UI dengan warna coklat/cream yang konsisten |
 | **Notifikasi** | Snackbar muncul saat berhasil menambah data |
 
-## 🛠️ Widget yang Digunakan
+## Widget yang Digunakan
 
 ### Layout & Struktur
 - `MaterialApp` - Root aplikasi dengan tema
