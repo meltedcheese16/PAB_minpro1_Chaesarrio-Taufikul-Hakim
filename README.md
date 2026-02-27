@@ -1,12 +1,15 @@
-# ☕ Katalog Kopi @Wakeup.social
+# Katalog Kopi @Wakeup.social
 
 Aplikasi Flutter sederhana untuk mengelola katalog kopi dengan fitur CRUD (Create, Read, Delete).
 
-## 📱 Deskripsi Aplikasi
+## Deskripsi Aplikasi
+
+<img width="1311" height="887" alt="image" src="https://github.com/user-attachments/assets/fb628e0d-2b96-41bb-964b-71b9340ae174" />
+
 
 Katalog Kopi @Wakeup.social adalah aplikasi mobile yang dibuat menggunakan Flutter dan Dart. Aplikasi ini memungkinkan pengguna untuk menambahkan, melihat, dan menghapus data kopi. Data disimpan secara lokal menggunakan List (tidak menggunakan database eksternal), sehingga data akan hilang ketika aplikasi ditutup. Cocok untuk pembelajaran dasar Flutter dan state management dengan StatefulWidget.
 
-## ✨ Fitur Aplikasi
+## Fitur Aplikasi
 
 | Fitur | Deskripsi |
 |-------|-----------|
@@ -26,6 +29,9 @@ Katalog Kopi @Wakeup.social adalah aplikasi mobile yang dibuat menggunakan Flutt
 - `StatefulWidget` - Widget dengan state yang bisa berubah
 
 ### Input & Form
+
+<img width="421" height="417" alt="image" src="https://github.com/user-attachments/assets/b382110b-07f5-4572-936e-67f6171d7d6f" />
+
 - `TextField` - Input teks untuk nama, jenis, dan harga kopi
 - `TextEditingController` - Mengontrol dan membaca nilai input
 - `AlertDialog` - Dialog popup untuk form input dan konfirmasi
@@ -37,24 +43,4 @@ Katalog Kopi @Wakeup.social adalah aplikasi mobile yang dibuat menggunakan Flutt
 - `InkWell` - Membuat card bisa diklik dengan efek ripple
 - `Dialog` - Menampilkan detail view kopi
 
-### UI Components
-- `AppBar` - Header aplikasi dengan judul dan gradient
-- `FloatingActionButton` - Tombol tambah kopi di pojok kanan bawah
-- `Icon` & `IconButton` - Icon kopi, delete, dan indikator
-- `Container` - Container dengan decoration (warna, border radius, shadow)
-- `BoxDecoration` - Gradient, rounded corners, shadow
-- `SnackBar` - Notifikasi singkat di bawah layar
 
-### Theme & Styling
-- `LinearGradient` - Gradient warna pada AppBar dan Card
-- `BorderRadius` - Sudut melengkung pada Card dan Button
-- `Color` - Custom color palette (coffeeDark, coffeeMedium, coffeeLight, coffeeCream)
-
-## 🚀 Cara Menjalankan
-
-1. Pastikan Flutter sudah terinstall
-2. Clone repository ini
-3. Jalankan perintah:
-   ```bash
-   flutter pub get
-   flutter run
